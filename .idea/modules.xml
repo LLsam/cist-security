@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ctsi-security.iml" filepath="$PROJECT_DIR$/ctsi-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ctsi-security-app/ctsi-security-app.iml" filepath="$PROJECT_DIR$/ctsi-security-app/ctsi-security-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ctsi-security-broswer/ctsi-security-broswer.iml" filepath="$PROJECT_DIR$/ctsi-security-broswer/ctsi-security-broswer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ctsi-security-core/ctsi-security-core.iml" filepath="$PROJECT_DIR$/ctsi-security-core/ctsi-security-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ctsi-security-demo/ctsi-security-demo.iml" filepath="$PROJECT_DIR$/ctsi-security-demo/ctsi-security-demo.iml" />
+    </modules>
+  </component>
+</project>
