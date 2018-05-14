@@ -1,11 +1,23 @@
 package com.ctsi.dto;
 
+import com.fasterxml.jackson.annotation.JsonView;
+
 /**
  * Created by llsam on 2018/5/14.
  */
 public class User {
     private String userName;
     private String passWord;
+
+    public interface UserSimpleView {
+    }
+
+    ;
+
+    public interface UserDetailView extends UserSimpleView {
+    }
+
+    ;
 
     public User() {
     }
@@ -15,6 +27,7 @@ public class User {
         this.passWord = passWord;
     }
 
+    @JsonView(UserSimpleView.class)
     public String getUserName() {
         return userName;
     }
@@ -23,6 +36,7 @@ public class User {
         this.userName = userName;
     }
 
+    @JsonView(UserDetailView.class)
     public String getPassWord() {
         return passWord;
     }
